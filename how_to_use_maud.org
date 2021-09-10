@@ -1,0 +1,157 @@
+#+TITLE: How to use Maud
+#+STARTUP: overview
+
+This document explains how to use [[https://github.com/biosustain/Maud/][Maud]] to fit Bayesian statistical models of
+steady-state metabolic networks.
+
+* Setting up a suitable computing environment
+
+Maud is written in Python and depends on the cmdstan. Here's how to set these up.
+
+** Installing Python
+
+Maud is tested using Python versions 3.7 and 3.8. Newer versions will probably
+work as well.
+
+Here's how to install Python 3.8 with [[https://github.com/pyenv/pyenv][pyenv]] on a mac (see [[https://github.com/pyenv/pyenv/wiki#suggested-build-environment][here]] for Linux
+instructions). For windows we suggest 
+
+#+begin_src sh
+  # Not necessary if you have already installed Xcode Command Line Tools
+  xcode-select --install  
+  
+  # Not necessary if you have already installed Homebrew
+  /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
+  
+  # Install Python dependencies
+  brew install openssl readline sqlite3 xz zlib
+  
+  # Run pyenv-installer (see https://github.com/pyenv/pyenv-installer)
+  curl https://pyenv.run | bash
+  
+  # restart your shell
+  exec $SHELL
+  
+  # install python 3.8.6 with pyenv
+  pyenv install 3.8.6
+#+end_src
+
+** Setting up a virtual environment
+
+We recommend installing Maud in a fresh virtual environment. You can set one up as follows:
+
+#+begin_src sh
+  # create a virtual environment called maud_venv
+  python -m venv maud_venv
+  
+  # activate maud_venv
+  source maud_venv/bin/activate
+#+end_src
+
+* Installing Maud and its Python dependencies
+
+#+begin_src sh
+  pip install https://github.com/biosustain/Maud/archive/master.zip
+#+end_src
+
+Alternatively if you're interested in modifying Maud or investigating its code:
+
+#+begin_src sh
+  git clone git@github.com:biosustain/Maud.git
+  cd Maud
+  pip install -e `.[development]`
+#+end_src
+
+This will also install development dependencies, which can be found [[https://github.com/biosustain/Maud/blob/965e51ad1698c4aa7c2cf9dd584c8fd2f56403bb/setup.cfg#L59][here]].
+
+** Installing cmdstan
+
+The following command, which should already have been installed with the with
+the python dependency [[https://github.com/stan-dev/cmdstanpy][cmdstanpy]] will download and build cmdstan for you:
+
+#+begin_src sh
+  install_cmdstan
+#+end_src
+
+** Checking that the installation has worked
+
+To check that everything has worked correctly, we can try running a Maud
+command
+
+#+begin_src sh
+  maud simulate data/example_maud_input
+#+end_src
+
+Don't worry about what it says - that's what the next section is for!
+
+* Analysing a small system with Maud
+
+We'll spend the rest of the time analysing a small dataset.
+
+** An example Maud input
+
+To start with, this section goes through the files in the example dataset we
+have provided. You can find a discussion of the input data format in Maud's
+documentation [[https://maud-metabolic-models.readthedocs.io/en/latest/usage/inputting.html][here]], but this guide should be enough to get started.
+
+First let's check out the contents of the example folder, which should look
+roughly as follows:
+
+#+begin_src sh :results drawer
+  ls data/example_maud_input
+#+end_src
+
+#+RESULTS:
+:results:
+readme.md
+:end:
+
+The most important of these files, and the only one whose name is important, is
+~config.toml~. This file tells Maud where to look for the other files it needs,
+and stores some configuration information that is passed on to Stan. Here is
+what our example config file looks like:
+
+#+begin_src sh
+  cat data/example_maud_input/config.toml
+#+end_src
+
+
+#+begin_src sh :results drawer
+  cat data/example_maud_input/kinetic_model.toml
+#+end_src
+
+#+RESULTS:
+:results:
+:end:
+
+** Step 1: check the initial conditions
+
+Rather than going straight ahead and sampling, we usually prefer to run a
+single, fixed-parameter HMC iteration at the initial parameter values and
+inspect the results before proceeding futher, using the command ~maud
+simulate~. By default Maud initialises at the prior mean, but initial values
+can also be specified.
+
+The main reason for running ~maud simulate~ before sampling is to quickly catch
+cases where the sampler has difficulty traversing the posterior distribution
+early in the run. This might be due to an error in the provided input data, in
+which case it is quite likely that the printed output will be weird in a way
+that makes it easier to track down the problem. Alternatively, it could be that
+the prior mean happens to be near a natural saddle point or other tricky part
+of the posterior distribution. In this case it might be necessary to specify
+custom initial values.
+
+#+begin_src sh :results drawer
+  maud simulate data/example_maud_input
+#+end_src
+
+
+** Step 2: generate posterior samples
+
+#+begin_src sh :results drawer
+  maud sample data/example_maud_input
+#+end_src
+
+** Step 3: analyse the samples
+
+** Step 4: out-of-sample predictions
