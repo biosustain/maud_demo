@@ -1,0 +1,260 @@
+Informational Message: The current Metropolis proposal is about to be rejected because of the following issue:
+Exception: CVODES: CVode Internal t = 291.28 and h = 1.29166e-14 are such that t + h = t on the next step. The solver will continue anyway. Error code: 99 (in '/home/shannara/Maud/src/maud/model.stan', line 313, column 4 to line 358, column 40)
+If this warning occurs sporadically, such as for highly constrained variable types like covariance matrices, then the sampler is fine,
+but if this warning occurs often then your model may be either severely ill-conditioned or misspecified.
+
+Informational Message: The current Metropolis proposal is about to be rejected because of the following issue:
+Exception: CVODES: CVode Internal t = 540.2 and h = 4.01429e-14 are such that t + h = t on the next step. The solver will continue anyway. Error code: 99 (in '/home/shannara/Maud/src/maud/model.stan', line 313, column 4 to line 358, column 40)
+If this warning occurs sporadically, such as for highly constrained variable types like covariance matrices, then the sampler is fine,
+but if this warning occurs often then your model may be either severely ill-conditioned or misspecified.
+
+Informational Message: The current Metropolis proposal is about to be rejected because of the following issue:
+Exception: CVODES: CVode Internal t = 977.78 and h = 5.20863e-14 are such that t + h = t on the next step. The solver will continue anyway. Error code: 99 (in '/home/shannara/Maud/src/maud/model.stan', line 313, column 4 to line 358, column 40)
+If this warning occurs sporadically, such as for highly constrained variable types like covariance matrices, then the sampler is fine,
+but if this warning occurs often then your model may be either severely ill-conditioned or misspecified.
+
+Informational Message: The current Metropolis proposal is about to be rejected because of the following issue:
+Exception: model_model_namespace::log_prob: conc[sym1__, sym2__] is -2.58546, but must be greater than or equal to 0 (in '/home/shannara/Maud/src/maud/model.stan', line 305, column 2 to column 50)
+If this warning occurs sporadically, such as for highly constrained variable types like covariance matrices, then the sampler is fine,
+but if this warning occurs often then your model may be either severely ill-conditioned or misspecified.
+
+Informational Message: The current Metropolis proposal is about to be rejected because of the following issue:
+Exception: model_model_namespace::log_prob: conc[sym1__, sym2__] is -103548, but must be greater than or equal to 0 (in '/home/shannara/Maud/src/maud/model.stan', line 305, column 2 to column 50)
+If this warning occurs sporadically, such as for highly constrained variable types like covariance matrices, then the sampler is fine,
+but if this warning occurs often then your model may be either severely ill-conditioned or misspecified.
+
+Informational Message: The current Metropolis proposal is about to be rejected because of the following issue:
+CVODES: CVode At t = 3.4592 and h = -2.96333e-07, the error test failed repeatedly or with |h| = hmin. Error code: -3
+If this warning occurs sporadically, such as for highly constrained variable types like covariance matrices, then the sampler is fine,
+but if this warning occurs often then your model may be either severely ill-conditioned or misspecified.
+
+Informational Message: The current Metropolis proposal is about to be rejected because of the following issue:
+Exception: CVODES: CVode Internal t = 710.568 and h = 3.18705e-14 are such that t + h = t on the next step. The solver will continue anyway. Error code: 99 (in '/home/shannara/Maud/src/maud/model.stan', line 313, column 4 to line 358, column 40)
+If this warning occurs sporadically, such as for highly constrained variable types like covariance matrices, then the sampler is fine,
+but if this warning occurs often then your model may be either severely ill-conditioned or misspecified.
+
+Informational Message: The current Metropolis proposal is about to be rejected because of the following issue:
+Exception: CVODES: CVode Internal t = 511.333 and h = 2.1707e-14 are such that t + h = t on the next step. The solver will continue anyway. Error code: 99 (in '/home/shannara/Maud/src/maud/model.stan', line 313, column 4 to line 358, column 40)
+If this warning occurs sporadically, such as for highly constrained variable types like covariance matrices, then the sampler is fine,
+but if this warning occurs often then your model may be either severely ill-conditioned or misspecified.
+
+Informational Message: The current Metropolis proposal is about to be rejected because of the following issue:
+Exception: model_model_namespace::log_prob: conc[sym1__, sym2__] is -2.57627, but must be greater than or equal to 0 (in '/home/shannara/Maud/src/maud/model.stan', line 305, column 2 to column 50)
+If this warning occurs sporadically, such as for highly constrained variable types like covariance matrices, then the sampler is fine,
+but if this warning occurs often then your model may be either severely ill-conditioned or misspecified.
+
+Informational Message: The current Metropolis proposal is about to be rejected because of the following issue:
+Exception: CVODES: CVode Internal t = 470.959 and h = 1.93921e-14 are such that t + h = t on the next step. The solver will continue anyway. Error code: 99 (in '/home/shannara/Maud/src/maud/model.stan', line 313, column 4 to line 358, column 40)
+If this warning occurs sporadically, such as for highly constrained variable types like covariance matrices, then the sampler is fine,
+but if this warning occurs often then your model may be either severely ill-conditioned or misspecified.
+
+Informational Message: The current Metropolis proposal is about to be rejected because of the following issue:
+Exception: CVODES: CVode Internal t = 55.2591 and h = 3.33517e-15 are such that t + h = t on the next step. The solver will continue anyway. Error code: 99 (in '/home/shannara/Maud/src/maud/model.stan', line 313, column 4 to line 358, column 40)
+If this warning occurs sporadically, such as for highly constrained variable types like covariance matrices, then the sampler is fine,
+but if this warning occurs often then your model may be either severely ill-conditioned or misspecified.
+
+Informational Message: The current Metropolis proposal is about to be rejected because of the following issue:
+Exception: model_model_namespace::log_prob: conc[sym1__, sym2__] is -1.51126, but must be greater than or equal to 0 (in '/home/shannara/Maud/src/maud/model.stan', line 305, column 2 to column 50)
+If this warning occurs sporadically, such as for highly constrained variable types like covariance matrices, then the sampler is fine,
+but if this warning occurs often then your model may be either severely ill-conditioned or misspecified.
+
+Informational Message: The current Metropolis proposal is about to be rejected because of the following issue:
+Exception: CVODES: CVode Internal t = 23.1549 and h = 1.30076e-15 are such that t + h = t on the next step. The solver will continue anyway. Error code: 99 (in '/home/shannara/Maud/src/maud/model.stan', line 313, column 4 to line 358, column 40)
+If this warning occurs sporadically, such as for highly constrained variable types like covariance matrices, then the sampler is fine,
+but if this warning occurs often then your model may be either severely ill-conditioned or misspecified.
+
+Informational Message: The current Metropolis proposal is about to be rejected because of the following issue:
+Exception: CVODES: CVode Internal t = 13.7932 and h = 7.23228e-16 are such that t + h = t on the next step. The solver will continue anyway. Error code: 99 (in '/home/shannara/Maud/src/maud/model.stan', line 313, column 4 to line 358, column 40)
+If this warning occurs sporadically, such as for highly constrained variable types like covariance matrices, then the sampler is fine,
+but if this warning occurs often then your model may be either severely ill-conditioned or misspecified.
+
+Informational Message: The current Metropolis proposal is about to be rejected because of the following issue:
+Exception: CVODES: CVode Internal t = 340.883 and h = 8.08138e-15 are such that t + h = t on the next step. The solver will continue anyway. Error code: 99 (in '/home/shannara/Maud/src/maud/model.stan', line 313, column 4 to line 358, column 40)
+If this warning occurs sporadically, such as for highly constrained variable types like covariance matrices, then the sampler is fine,
+but if this warning occurs often then your model may be either severely ill-conditioned or misspecified.
+
+Informational Message: The current Metropolis proposal is about to be rejected because of the following issue:
+Exception: CVODES: CVode Internal t = 6.9893 and h = 3.41171e-16 are such that t + h = t on the next step. The solver will continue anyway. Error code: 99 (in '/home/shannara/Maud/src/maud/model.stan', line 313, column 4 to line 358, column 40)
+If this warning occurs sporadically, such as for highly constrained variable types like covariance matrices, then the sampler is fine,
+but if this warning occurs often then your model may be either severely ill-conditioned or misspecified.
+
+Informational Message: The current Metropolis proposal is about to be rejected because of the following issue:
+Exception: CVODES: CVode Internal t = 7.22443 and h = 9.93832e-17 are such that t + h = t on the next step. The solver will continue anyway. Error code: 99 (in '/home/shannara/Maud/src/maud/model.stan', line 313, column 4 to line 358, column 40)
+If this warning occurs sporadically, such as for highly constrained variable types like covariance matrices, then the sampler is fine,
+but if this warning occurs often then your model may be either severely ill-conditioned or misspecified.
+
+Informational Message: The current Metropolis proposal is about to be rejected because of the following issue:
+Exception: CVODES: CVode Internal t = 4.21073 and h = 2.30576e-16 are such that t + h = t on the next step. The solver will continue anyway. Error code: 99 (in '/home/shannara/Maud/src/maud/model.stan', line 313, column 4 to line 358, column 40)
+If this warning occurs sporadically, such as for highly constrained variable types like covariance matrices, then the sampler is fine,
+but if this warning occurs often then your model may be either severely ill-conditioned or misspecified.
+
+Informational Message: The current Metropolis proposal is about to be rejected because of the following issue:
+Exception: model_model_namespace::log_prob: conc[sym1__, sym2__] is -1.58614e+11, but must be greater than or equal to 0 (in '/home/shannara/Maud/src/maud/model.stan', line 305, column 2 to column 50)
+If this warning occurs sporadically, such as for highly constrained variable types like covariance matrices, then the sampler is fine,
+but if this warning occurs often then your model may be either severely ill-conditioned or misspecified.
+
+Informational Message: The current Metropolis proposal is about to be rejected because of the following issue:
+Exception: model_model_namespace::log_prob: conc[sym1__, sym2__] is -1.69533, but must be greater than or equal to 0 (in '/home/shannara/Maud/src/maud/model.stan', line 305, column 2 to column 50)
+If this warning occurs sporadically, such as for highly constrained variable types like covariance matrices, then the sampler is fine,
+but if this warning occurs often then your model may be either severely ill-conditioned or misspecified.
+
+Informational Message: The current Metropolis proposal is about to be rejected because of the following issue:
+Exception: CVODES: CVode Internal t = 624.562 and h = 5.20847e-14 are such that t + h = t on the next step. The solver will continue anyway. Error code: 99 (in '/home/shannara/Maud/src/maud/model.stan', line 313, column 4 to line 358, column 40)
+If this warning occurs sporadically, such as for highly constrained variable types like covariance matrices, then the sampler is fine,
+but if this warning occurs often then your model may be either severely ill-conditioned or misspecified.
+
+Informational Message: The current Metropolis proposal is about to be rejected because of the following issue:
+Exception: CVODES: CVode Internal t = 79.6624 and h = 5.35155e-15 are such that t + h = t on the next step. The solver will continue anyway. Error code: 99 (in '/home/shannara/Maud/src/maud/model.stan', line 313, column 4 to line 358, column 40)
+If this warning occurs sporadically, such as for highly constrained variable types like covariance matrices, then the sampler is fine,
+but if this warning occurs often then your model may be either severely ill-conditioned or misspecified.
+
+Informational Message: The current Metropolis proposal is about to be rejected because of the following issue:
+Exception: CVODES: CVode Internal t = 595.525 and h = 3.90856e-14 are such that t + h = t on the next step. The solver will continue anyway. Error code: 99 (in '/home/shannara/Maud/src/maud/model.stan', line 313, column 4 to line 358, column 40)
+If this warning occurs sporadically, such as for highly constrained variable types like covariance matrices, then the sampler is fine,
+but if this warning occurs often then your model may be either severely ill-conditioned or misspecified.
+
+Informational Message: The current Metropolis proposal is about to be rejected because of the following issue:
+Exception: CVODES: CVode Internal t = 368.588 and h = 1.65071e-14 are such that t + h = t on the next step. The solver will continue anyway. Error code: 99 (in '/home/shannara/Maud/src/maud/model.stan', line 313, column 4 to line 358, column 40)
+If this warning occurs sporadically, such as for highly constrained variable types like covariance matrices, then the sampler is fine,
+but if this warning occurs often then your model may be either severely ill-conditioned or misspecified.
+
+Informational Message: The current Metropolis proposal is about to be rejected because of the following issue:
+Exception: CVODES: CVode Internal t = 10.318 and h = 8.51308e-16 are such that t + h = t on the next step. The solver will continue anyway. Error code: 99 (in '/home/shannara/Maud/src/maud/model.stan', line 313, column 4 to line 358, column 40)
+If this warning occurs sporadically, such as for highly constrained variable types like covariance matrices, then the sampler is fine,
+but if this warning occurs often then your model may be either severely ill-conditioned or misspecified.
+
+Informational Message: The current Metropolis proposal is about to be rejected because of the following issue:
+Exception: CVODES: CVode Internal t = 97.9556 and h = 5.77229e-15 are such that t + h = t on the next step. The solver will continue anyway. Error code: 99 (in '/home/shannara/Maud/src/maud/model.stan', line 313, column 4 to line 358, column 40)
+If this warning occurs sporadically, such as for highly constrained variable types like covariance matrices, then the sampler is fine,
+but if this warning occurs often then your model may be either severely ill-conditioned or misspecified.
+
+Informational Message: The current Metropolis proposal is about to be rejected because of the following issue:
+Exception: CVODES: CVode Internal t = 641.037 and h = 4.29863e-14 are such that t + h = t on the next step. The solver will continue anyway. Error code: 99 (in '/home/shannara/Maud/src/maud/model.stan', line 313, column 4 to line 358, column 40)
+If this warning occurs sporadically, such as for highly constrained variable types like covariance matrices, then the sampler is fine,
+but if this warning occurs often then your model may be either severely ill-conditioned or misspecified.
+
+Informational Message: The current Metropolis proposal is about to be rejected because of the following issue:
+Exception: model_model_namespace::log_prob: conc[sym1__, sym2__] is -5.42284, but must be greater than or equal to 0 (in '/home/shannara/Maud/src/maud/model.stan', line 305, column 2 to column 50)
+If this warning occurs sporadically, such as for highly constrained variable types like covariance matrices, then the sampler is fine,
+but if this warning occurs often then your model may be either severely ill-conditioned or misspecified.
+
+Informational Message: The current Metropolis proposal is about to be rejected because of the following issue:
+Exception: CVODES: CVode Internal t = 119.217 and h = 6.41236e-15 are such that t + h = t on the next step. The solver will continue anyway. Error code: 99 (in '/home/shannara/Maud/src/maud/model.stan', line 313, column 4 to line 358, column 40)
+If this warning occurs sporadically, such as for highly constrained variable types like covariance matrices, then the sampler is fine,
+but if this warning occurs often then your model may be either severely ill-conditioned or misspecified.
+
+Informational Message: The current Metropolis proposal is about to be rejected because of the following issue:
+Exception: CVODES: CVode Internal t = 698.101 and h = 3.83069e-14 are such that t + h = t on the next step. The solver will continue anyway. Error code: 99 (in '/home/shannara/Maud/src/maud/model.stan', line 313, column 4 to line 358, column 40)
+If this warning occurs sporadically, such as for highly constrained variable types like covariance matrices, then the sampler is fine,
+but if this warning occurs often then your model may be either severely ill-conditioned or misspecified.
+
+Informational Message: The current Metropolis proposal is about to be rejected because of the following issue:
+Exception: CVODES: CVode Internal t = 126.404 and h = 5.31128e-15 are such that t + h = t on the next step. The solver will continue anyway. Error code: 99 (in '/home/shannara/Maud/src/maud/model.stan', line 313, column 4 to line 358, column 40)
+If this warning occurs sporadically, such as for highly constrained variable types like covariance matrices, then the sampler is fine,
+but if this warning occurs often then your model may be either severely ill-conditioned or misspecified.
+
+Informational Message: The current Metropolis proposal is about to be rejected because of the following issue:
+Exception: model_model_namespace::log_prob: conc[sym1__, sym2__] is -0.21561, but must be greater than or equal to 0 (in '/home/shannara/Maud/src/maud/model.stan', line 305, column 2 to column 50)
+If this warning occurs sporadically, such as for highly constrained variable types like covariance matrices, then the sampler is fine,
+but if this warning occurs often then your model may be either severely ill-conditioned or misspecified.
+
+Informational Message: The current Metropolis proposal is about to be rejected because of the following issue:
+Exception: model_model_namespace::log_prob: conc[sym1__, sym2__] is -0.0335506, but must be greater than or equal to 0 (in '/home/shannara/Maud/src/maud/model.stan', line 305, column 2 to column 50)
+If this warning occurs sporadically, such as for highly constrained variable types like covariance matrices, then the sampler is fine,
+but if this warning occurs often then your model may be either severely ill-conditioned or misspecified.
+
+Informational Message: The current Metropolis proposal is about to be rejected because of the following issue:
+Exception: CVODES: CVode Internal t = 294.39 and h = 2.46804e-14 are such that t + h = t on the next step. The solver will continue anyway. Error code: 99 (in '/home/shannara/Maud/src/maud/model.stan', line 313, column 4 to line 358, column 40)
+If this warning occurs sporadically, such as for highly constrained variable types like covariance matrices, then the sampler is fine,
+but if this warning occurs often then your model may be either severely ill-conditioned or misspecified.
+
+Informational Message: The current Metropolis proposal is about to be rejected because of the following issue:
+Exception: model_model_namespace::log_prob: conc[sym1__, sym2__] is -6.37971, but must be greater than or equal to 0 (in '/home/shannara/Maud/src/maud/model.stan', line 305, column 2 to column 50)
+If this warning occurs sporadically, such as for highly constrained variable types like covariance matrices, then the sampler is fine,
+but if this warning occurs often then your model may be either severely ill-conditioned or misspecified.
+
+Informational Message: The current Metropolis proposal is about to be rejected because of the following issue:
+Exception: CVODES: CVode Internal t = 37.1586 and h = 2.96087e-15 are such that t + h = t on the next step. The solver will continue anyway. Error code: 99 (in '/home/shannara/Maud/src/maud/model.stan', line 313, column 4 to line 358, column 40)
+If this warning occurs sporadically, such as for highly constrained variable types like covariance matrices, then the sampler is fine,
+but if this warning occurs often then your model may be either severely ill-conditioned or misspecified.
+
+Informational Message: The current Metropolis proposal is about to be rejected because of the following issue:
+Exception: CVODES: CVode Internal t = 67.4235 and h = 6.16141e-15 are such that t + h = t on the next step. The solver will continue anyway. Error code: 99 (in '/home/shannara/Maud/src/maud/model.stan', line 313, column 4 to line 358, column 40)
+If this warning occurs sporadically, such as for highly constrained variable types like covariance matrices, then the sampler is fine,
+but if this warning occurs often then your model may be either severely ill-conditioned or misspecified.
+
+Informational Message: The current Metropolis proposal is about to be rejected because of the following issue:
+Exception: CVODES: CVode Internal t = 17.2822 and h = 1.68054e-15 are such that t + h = t on the next step. The solver will continue anyway. Error code: 99 (in '/home/shannara/Maud/src/maud/model.stan', line 313, column 4 to line 358, column 40)
+If this warning occurs sporadically, such as for highly constrained variable types like covariance matrices, then the sampler is fine,
+but if this warning occurs often then your model may be either severely ill-conditioned or misspecified.
+
+Informational Message: The current Metropolis proposal is about to be rejected because of the following issue:
+Exception: CVODES: CVode Internal t = 385.456 and h = 2.13523e-14 are such that t + h = t on the next step. The solver will continue anyway. Error code: 99 (in '/home/shannara/Maud/src/maud/model.stan', line 313, column 4 to line 358, column 40)
+If this warning occurs sporadically, such as for highly constrained variable types like covariance matrices, then the sampler is fine,
+but if this warning occurs often then your model may be either severely ill-conditioned or misspecified.
+
+Informational Message: The current Metropolis proposal is about to be rejected because of the following issue:
+Exception: CVODES: CVode Internal t = 656.878 and h = 4.41429e-14 are such that t + h = t on the next step. The solver will continue anyway. Error code: 99 (in '/home/shannara/Maud/src/maud/model.stan', line 313, column 4 to line 358, column 40)
+If this warning occurs sporadically, such as for highly constrained variable types like covariance matrices, then the sampler is fine,
+but if this warning occurs often then your model may be either severely ill-conditioned or misspecified.
+
+Informational Message: The current Metropolis proposal is about to be rejected because of the following issue:
+Exception: CVODES: CVode Internal t = 17.1813 and h = 1.36992e-15 are such that t + h = t on the next step. The solver will continue anyway. Error code: 99 (in '/home/shannara/Maud/src/maud/model.stan', line 313, column 4 to line 358, column 40)
+If this warning occurs sporadically, such as for highly constrained variable types like covariance matrices, then the sampler is fine,
+but if this warning occurs often then your model may be either severely ill-conditioned or misspecified.
+
+Informational Message: The current Metropolis proposal is about to be rejected because of the following issue:
+Exception: CVODES: CVode Internal t = 169.578 and h = 5.87555e-15 are such that t + h = t on the next step. The solver will continue anyway. Error code: 99 (in '/home/shannara/Maud/src/maud/model.stan', line 313, column 4 to line 358, column 40)
+If this warning occurs sporadically, such as for highly constrained variable types like covariance matrices, then the sampler is fine,
+but if this warning occurs often then your model may be either severely ill-conditioned or misspecified.
+
+Informational Message: The current Metropolis proposal is about to be rejected because of the following issue:
+Exception: model_model_namespace::log_prob: conc[sym1__, sym2__] is -1.77168, but must be greater than or equal to 0 (in '/home/shannara/Maud/src/maud/model.stan', line 305, column 2 to column 50)
+If this warning occurs sporadically, such as for highly constrained variable types like covariance matrices, then the sampler is fine,
+but if this warning occurs often then your model may be either severely ill-conditioned or misspecified.
+
+Informational Message: The current Metropolis proposal is about to be rejected because of the following issue:
+Exception: model_model_namespace::log_prob: conc[sym1__, sym2__] is -1.6388, but must be greater than or equal to 0 (in '/home/shannara/Maud/src/maud/model.stan', line 305, column 2 to column 50)
+If this warning occurs sporadically, such as for highly constrained variable types like covariance matrices, then the sampler is fine,
+but if this warning occurs often then your model may be either severely ill-conditioned or misspecified.
+
+Informational Message: The current Metropolis proposal is about to be rejected because of the following issue:
+Exception: CVODES: CVode Internal t = 17.3235 and h = 1.7232e-15 are such that t + h = t on the next step. The solver will continue anyway. Error code: 99 (in '/home/shannara/Maud/src/maud/model.stan', line 313, column 4 to line 358, column 40)
+If this warning occurs sporadically, such as for highly constrained variable types like covariance matrices, then the sampler is fine,
+but if this warning occurs often then your model may be either severely ill-conditioned or misspecified.
+
+Informational Message: The current Metropolis proposal is about to be rejected because of the following issue:
+Exception: model_model_namespace::log_prob: conc[sym1__, sym2__] is -2.41446, but must be greater than or equal to 0 (in '/home/shannara/Maud/src/maud/model.stan', line 305, column 2 to column 50)
+If this warning occurs sporadically, such as for highly constrained variable types like covariance matrices, then the sampler is fine,
+but if this warning occurs often then your model may be either severely ill-conditioned or misspecified.
+
+Informational Message: The current Metropolis proposal is about to be rejected because of the following issue:
+Exception: model_model_namespace::log_prob: conc[sym1__, sym2__] is -2.04765, but must be greater than or equal to 0 (in '/home/shannara/Maud/src/maud/model.stan', line 305, column 2 to column 50)
+If this warning occurs sporadically, such as for highly constrained variable types like covariance matrices, then the sampler is fine,
+but if this warning occurs often then your model may be either severely ill-conditioned or misspecified.
+
+Informational Message: The current Metropolis proposal is about to be rejected because of the following issue:
+Exception: model_model_namespace::log_prob: conc[sym1__, sym2__] is -7.07798, but must be greater than or equal to 0 (in '/home/shannara/Maud/src/maud/model.stan', line 305, column 2 to column 50)
+If this warning occurs sporadically, such as for highly constrained variable types like covariance matrices, then the sampler is fine,
+but if this warning occurs often then your model may be either severely ill-conditioned or misspecified.
+
+Informational Message: The current Metropolis proposal is about to be rejected because of the following issue:
+Exception: model_model_namespace::log_prob: conc[sym1__, sym2__] is -1.71812, but must be greater than or equal to 0 (in '/home/shannara/Maud/src/maud/model.stan', line 305, column 2 to column 50)
+If this warning occurs sporadically, such as for highly constrained variable types like covariance matrices, then the sampler is fine,
+but if this warning occurs often then your model may be either severely ill-conditioned or misspecified.
+
+Informational Message: The current Metropolis proposal is about to be rejected because of the following issue:
+Exception: model_model_namespace::log_prob: conc[sym1__, sym2__] is -1.03227, but must be greater than or equal to 0 (in '/home/shannara/Maud/src/maud/model.stan', line 305, column 2 to column 50)
+If this warning occurs sporadically, such as for highly constrained variable types like covariance matrices, then the sampler is fine,
+but if this warning occurs often then your model may be either severely ill-conditioned or misspecified.
+
+Informational Message: The current Metropolis proposal is about to be rejected because of the following issue:
+Exception: CVODES: CVode Internal t = 182.889 and h = 9.83333e-15 are such that t + h = t on the next step. The solver will continue anyway. Error code: 99 (in '/home/shannara/Maud/src/maud/model.stan', line 313, column 4 to line 358, column 40)
+If this warning occurs sporadically, such as for highly constrained variable types like covariance matrices, then the sampler is fine,
+but if this warning occurs often then your model may be either severely ill-conditioned or misspecified.
+
+Informational Message: The current Metropolis proposal is about to be rejected because of the following issue:
+Exception: CVODES: CVode Internal t = 177.114 and h = 1.38684e-14 are such that t + h = t on the next step. The solver will continue anyway. Error code: 99 (in '/home/shannara/Maud/src/maud/model.stan', line 313, column 4 to line 358, column 40)
+If this warning occurs sporadically, such as for highly constrained variable types like covariance matrices, then the sampler is fine,
+but if this warning occurs often then your model may be either severely ill-conditioned or misspecified.
+

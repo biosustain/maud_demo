@@ -1,0 +1,81 @@
+#+TITLE: How to install Maud
+#+STARTUP: overview
+
+Maud is written in Python and depends on the cmdstan. Here's how to set these up.
+
+* Installing Python
+
+Maud is tested using Python versions 3.7 and 3.8. Newer versions will probably
+work as well.
+
+Here's how to install Python 3.8 with [[https://github.com/pyenv/pyenv][pyenv]] on a mac (see [[https://github.com/pyenv/pyenv/wiki#suggested-build-environment][here]] for Linux
+instructions). For windows we suggest 
+
+#+begin_src sh
+  # Not necessary if you have already installed Xcode Command Line Tools
+  xcode-select --install  
+  
+  # Not necessary if you have already installed Homebrew
+  /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
+  
+  # Install Python dependencies
+  brew install openssl readline sqlite3 xz zlib
+  
+  # Run pyenv-installer (see https://github.com/pyenv/pyenv-installer)
+  curl https://pyenv.run | bash
+  
+  # restart your shell
+  exec $SHELL
+  
+  # install python 3.8.6 with pyenv
+  pyenv install 3.8.6
+#+end_src
+
+* Setting up a virtual environment
+
+We recommend installing Maud in a fresh virtual environment. You can set one up as follows:
+
+#+begin_src sh
+  # create a virtual environment called maud_venv
+  python -m venv maud_venv
+  
+  # activate maud_venv
+  source maud_venv/bin/activate
+#+end_src
+
+* Installing Maud and its Python dependencies
+
+#+begin_src sh
+  pip install https://github.com/biosustain/Maud/archive/master.zip
+#+end_src
+
+Alternatively if you're interested in modifying Maud or investigating its code:
+
+#+begin_src sh
+  git clone git@github.com:biosustain/Maud.git
+  cd Maud
+  pip install -e `.[development]`
+#+end_src
+
+This will also install development dependencies, which can be found [[https://github.com/biosustain/Maud/blob/965e51ad1698c4aa7c2cf9dd584c8fd2f56403bb/setup.cfg#L59][here]].
+
+* Installing cmdstan
+
+The following command, which should already have been installed with the with
+the python dependency [[https://github.com/stan-dev/cmdstanpy][cmdstanpy]] will download and build cmdstan for you:
+
+#+begin_src sh
+  install_cmdstan
+#+end_src
+
+* Checking that the installation has worked
+
+To check that everything has worked correctly, we can try running a Maud
+command
+
+#+begin_src sh
+  maud simulate data/linear
+#+end_src
+
+Don't worry about what it says - that's what the demo notebook is for!
+

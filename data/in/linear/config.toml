@@ -1,0 +1,23 @@
+name = "linear"
+kinetic_model = "kinetic_model.toml"
+priors = "priors.csv"
+experiments = "experiments.csv"
+likelihood = true
+
+[cmdstanpy_config]
+iter_warmup = 20
+iter_sampling = 20
+chains = 4
+save_warmup = true
+show_progress = false
+
+[ode_config]
+abs_tol_forward = 1e-4
+rel_tol_forward = 1e-4
+abs_tol_backward = 1e-4
+rel_tol_backward = 1e-4
+abs_tol_quadrature = 1e-4
+rel_tol_quadrature = 1e-4
+max_num_steps = 1e6
+timepoint = 1e3
+
