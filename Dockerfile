@@ -33,4 +33,5 @@ USER jovyan
 
 # Define entrypoint
 
-CMD jupyter notebook
+RUN /bin/bash /usr/local/bin/start-singleuser.sh -h
+CMD ["/bin/bash", "/usr/local/bin/start-singleuser.sh"]
