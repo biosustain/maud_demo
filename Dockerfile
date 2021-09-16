@@ -14,17 +14,13 @@ USER root
 
 RUN apt-get update && apt-get install -y wget make g++
 
-RUN mkdir cmdstan
+RUN mkdir /usr/bin/cmdstan
 
-RUN cd cmdstan && wget -c https://github.com/rok-cesnovar/cmdstan/releases/download/adjoint_ODE_v2/cmdstan-ode-adjoint-v2.tar.gz -O - | tar -xz
+RUN cd /usr/bin/cmdstan && wget -c https://github.com/rok-cesnovar/cmdstan/releases/download/adjoint_ODE_v2/cmdstan-ode-adjoint-v2.tar.gz -O - | tar -xz
 
-ENV CMDSTAN="/home/jovyan/cmdstan/cmdstan-ode-adjoint-v2"
+ENV CMDSTAN="/usr/bin/cmdstan/cmdstan-ode-adjoint-v2"
 
 RUN cd $CMDSTAN && make build
-
-# Copy files
-
-ADD maud_demo_files/ /home/jovyan/work/maud_demo
 
 # Update permissions
 RUN chown -R jovyan:users /home/jovyan/
