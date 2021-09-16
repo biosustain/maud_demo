@@ -23,7 +23,7 @@ ENV CMDSTAN="/usr/bin/cmdstan/cmdstan-ode-adjoint-v2"
 RUN cd $CMDSTAN && make build
 
 # Update permissions
-RUN chown -R jovyan:users /home/jovyan/
+RUN chown -R jovyan:users /
 
 USER jovyan
 
