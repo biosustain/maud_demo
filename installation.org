@@ -3,6 +3,9 @@
 
 Maud is written in Python and depends on the cmdstan. Here's how to set these up.
 
+The instructions below should work on Mac and linux. We highly recommend that
+windows users use the pre-installed Jupyterhub environment
+
 * Installing Python
 
 Maud is tested using Python versions 3.7 and 3.8. Newer versions will probably
@@ -77,5 +80,4 @@ command
   maud simulate data/linear
 #+end_src
 
-Don't worry about what it says - that's what the demo notebook is for!
-
+If that prints out some numbers then everything has worked!
