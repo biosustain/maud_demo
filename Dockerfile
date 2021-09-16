@@ -22,14 +22,14 @@ ENV CMDSTAN="/home/jovyan/cmdstan/cmdstan-ode-adjoint-v2"
 
 RUN cd $CMDSTAN && make build
 
-# Copy files
-
-COPY . /home/jovyan/work/maud_demo
-
 # Update permissions
 RUN chown -R jovyan:users /home/jovyan/
 
 USER jovyan
+
+# Copy files
+
+ADD maud_demo_files/ /home/jovyan/work/maud_demo
 
 # Define entrypoint
 
