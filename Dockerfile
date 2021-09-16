@@ -24,7 +24,7 @@ RUN cd $CMDSTAN && make build
 
 # Update permissions
 RUN chown -R jovyan:users /home/jovyan/
-RUN chown -R jovyan:users $CMDSTAN
+RUN chmod -R 777 $CMDSTAN
 
 USER jovyan
 
