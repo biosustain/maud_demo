@@ -5,10 +5,10 @@ experiments = "experiments.csv"
 likelihood = true
 
 [cmdstanpy_config]
-iter_warmup = 500
-iter_sampling = 500
-chains = 4
-max_treedepth = 10
+iter_warmup = 5
+iter_sampling = 5
+chains = 2
+max_treedepth = 8
 refresh = 1
 save_warmup = true
 show_progress = true
