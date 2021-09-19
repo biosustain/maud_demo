@@ -7,7 +7,7 @@ method = sample (Default)
     adapt
       engaged = 1 (Default)
       gamma = 0.050000000000000003 (Default)
-      delta = 0.98999999999999999
+      delta = 0.80000000000000004 (Default)
       kappa = 0.75 (Default)
       t0 = 10 (Default)
       init_buffer = 75 (Default)
@@ -22,22 +22,22 @@ method = sample (Default)
         metric_file =  (Default)
         stepsize = 0.025000000000000001
         stepsize_jitter = 0 (Default)
-id = 2
+id = 1
 data
-  file = ./maud_output-linear-20210916170220/samples/input_data.json
-init = ./maud_output-linear-20210916170220/samples/inits.json
+  file = ./maud_output-linear-20210919163223/samples/input_data.json
+init = ./maud_output-linear-20210919163223/samples/inits.json
 random
-  seed = 58632
+  seed = 88704
 output
-  file = /Users/tedgro/dtu/projects/maud_demo/maud_output-linear-20210916170220/samples/model-202109161702-2.csv
+  file = /Users/tedgro/dtu/projects/maud_demo/maud_output-linear-20210919163223/samples/model-202109191632-1.csv
   diagnostic_file =  (Default)
   refresh = 1
   sig_figs = -1 (Default)
   profile_file = profile.csv (Default)
 
 
-Gradient evaluation took 0.059882 seconds
-1000 transitions using 10 leapfrog steps per transition would take 598.82 seconds.
+Gradient evaluation took 0.068813 seconds
+1000 transitions using 10 leapfrog steps per transition would take 688.13 seconds.
 Adjust your expectations accordingly!
 
 
@@ -143,25 +143,6 @@ Iteration:  99 / 1000 [  9%]  (Warmup)
 Iteration: 100 / 1000 [ 10%]  (Warmup)
 Iteration: 101 / 1000 [ 10%]  (Warmup)
 Iteration: 102 / 1000 [ 10%]  (Warmup)
-
-Non-steady state in experiment 2.
-Balanced metabolite concentration at 1000 seconds: [0.263852,0.366794]
-Balanced metabolite concentration at 1010 seconds: [0.26327,0.365984]
-flux: [4.73541e-05,-0.00471086,0.000187661]
-conc_init: [0.5,0.6,0.4,0.2]
-conc_unbalanced: [0.505853,0.26813]
-conc_enzyme_experiment: [0.000130041,0.47308,1.65842]
-km: [0.160883,0.157201,0.000383477,0.10137,3.60906,0.0721499]
-drain: []
-kcat: [1.65892,1440.61,0.0199425]
-keq: [1,1.39014,1]
-ki: [59.1435]
-diss_t: [0.482498]
-diss_r: [0.50421]
-transfer_constant: [1.99556,0.422806]
-kcat_phos: []
-conc_phos_experiment: []
-
 Iteration: 103 / 1000 [ 10%]  (Warmup)
 Iteration: 104 / 1000 [ 10%]  (Warmup)
 Iteration: 105 / 1000 [ 10%]  (Warmup)
@@ -214,20 +195,20 @@ Iteration: 151 / 1000 [ 15%]  (Warmup)
 Iteration: 152 / 1000 [ 15%]  (Warmup)
 
 Non-steady state in experiment 2.
-Balanced metabolite concentration at 1000 seconds: [0.734695,0.671152]
-Balanced metabolite concentration at 1010 seconds: [0.734695,0.672543]
-flux: [8.57304,0.000127158,-1.27138e-05]
+Balanced metabolite concentration at 1000 seconds: [0.910502,1.39239]
+Balanced metabolite concentration at 1010 seconds: [0.910503,1.39617]
+flux: [0.000434687,0.000381412,-3.12651e-30]
 conc_init: [0.5,0.6,0.4,0.2]
-conc_unbalanced: [0.734695,0.69645]
-conc_enzyme_experiment: [7.57693e+13,0.480153,1.33194]
-km: [1.64257,0.00191283,0.726114,0.0241255,5.19229,0.0101193]
+conc_unbalanced: [0.910523,2.49494]
+conc_enzyme_experiment: [1.41926,0.0549092,4.9124]
+km: [3.97819e+06,0.0294166,1.64614,0.118609,2.32038e+12,1.29816e-17]
 drain: []
-kcat: [336.591,0.024883,0.137049]
-keq: [1,1.3581,1]
-ki: [1.21547]
-diss_t: [1.13079]
-diss_r: [1.40993]
-transfer_constant: [0.440817,0.447766]
+kcat: [14.4323,0.732247,0.25743]
+keq: [1,1.99274,1]
+ki: [5.17817]
+diss_t: [0.86086]
+diss_r: [0.00697821]
+transfer_constant: [448.131,0.000187273]
 kcat_phos: []
 conc_phos_experiment: []
 
@@ -1080,7 +1061,7 @@ Iteration: 998 / 1000 [ 99%]  (Sampling)
 Iteration: 999 / 1000 [ 99%]  (Sampling)
 Iteration: 1000 / 1000 [100%]  (Sampling)
 
- Elapsed Time: 5992.02 seconds (Warm-up)
-               1413.72 seconds (Sampling)
-               7405.74 seconds (Total)
+ Elapsed Time: 1767.26 seconds (Warm-up)
+               663.183 seconds (Sampling)
+               2430.44 seconds (Total)
 

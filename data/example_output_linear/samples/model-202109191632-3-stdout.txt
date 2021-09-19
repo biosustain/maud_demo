@@ -7,7 +7,7 @@ method = sample (Default)
     adapt
       engaged = 1 (Default)
       gamma = 0.050000000000000003 (Default)
-      delta = 0.98999999999999999
+      delta = 0.80000000000000004 (Default)
       kappa = 0.75 (Default)
       t0 = 10 (Default)
       init_buffer = 75 (Default)
@@ -22,22 +22,22 @@ method = sample (Default)
         metric_file =  (Default)
         stepsize = 0.025000000000000001
         stepsize_jitter = 0 (Default)
-id = 1
+id = 3
 data
-  file = ./maud_output-linear-20210916170220/samples/input_data.json
-init = ./maud_output-linear-20210916170220/samples/inits.json
+  file = ./maud_output-linear-20210919163223/samples/input_data.json
+init = ./maud_output-linear-20210919163223/samples/inits.json
 random
-  seed = 58632
+  seed = 88704
 output
-  file = /Users/tedgro/dtu/projects/maud_demo/maud_output-linear-20210916170220/samples/model-202109161702-1.csv
+  file = /Users/tedgro/dtu/projects/maud_demo/maud_output-linear-20210919163223/samples/model-202109191632-3.csv
   diagnostic_file =  (Default)
   refresh = 1
   sig_figs = -1 (Default)
   profile_file = profile.csv (Default)
 
 
-Gradient evaluation took 0.060082 seconds
-1000 transitions using 10 leapfrog steps per transition would take 600.82 seconds.
+Gradient evaluation took 0.064652 seconds
+1000 transitions using 10 leapfrog steps per transition would take 646.52 seconds.
 Adjust your expectations accordingly!
 
 
@@ -1042,7 +1042,7 @@ Iteration: 998 / 1000 [ 99%]  (Sampling)
 Iteration: 999 / 1000 [ 99%]  (Sampling)
 Iteration: 1000 / 1000 [100%]  (Sampling)
 
- Elapsed Time: 4507.34 seconds (Warm-up)
-               1096.25 seconds (Sampling)
-               5603.6 seconds (Total)
+ Elapsed Time: 1692.4 seconds (Warm-up)
+               562.338 seconds (Sampling)
+               2254.74 seconds (Total)
 

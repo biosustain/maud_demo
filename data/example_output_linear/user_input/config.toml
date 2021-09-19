@@ -12,6 +12,7 @@ max_treedepth = 10
 refresh = 1
 save_warmup = true
 show_progress = true
+adapt_delta = 0.8
 
 [ode_config]
 abs_tol_forward = 1e-4

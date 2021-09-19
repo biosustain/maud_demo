@@ -7,7 +7,7 @@ method = sample (Default)
     adapt
       engaged = 1 (Default)
       gamma = 0.050000000000000003 (Default)
-      delta = 0.98999999999999999
+      delta = 0.80000000000000004 (Default)
       kappa = 0.75 (Default)
       t0 = 10 (Default)
       init_buffer = 75 (Default)
@@ -22,22 +22,22 @@ method = sample (Default)
         metric_file =  (Default)
         stepsize = 0.025000000000000001
         stepsize_jitter = 0 (Default)
-id = 3
+id = 2
 data
-  file = ./maud_output-linear-20210916170220/samples/input_data.json
-init = ./maud_output-linear-20210916170220/samples/inits.json
+  file = ./maud_output-linear-20210919163223/samples/input_data.json
+init = ./maud_output-linear-20210919163223/samples/inits.json
 random
-  seed = 58632
+  seed = 88704
 output
-  file = /Users/tedgro/dtu/projects/maud_demo/maud_output-linear-20210916170220/samples/model-202109161702-3.csv
+  file = /Users/tedgro/dtu/projects/maud_demo/maud_output-linear-20210919163223/samples/model-202109191632-2.csv
   diagnostic_file =  (Default)
   refresh = 1
   sig_figs = -1 (Default)
   profile_file = profile.csv (Default)
 
 
-Gradient evaluation took 0.068737 seconds
-1000 transitions using 10 leapfrog steps per transition would take 687.37 seconds.
+Gradient evaluation took 0.075464 seconds
+1000 transitions using 10 leapfrog steps per transition would take 754.64 seconds.
 Adjust your expectations accordingly!
 
 
@@ -493,25 +493,6 @@ Iteration: 449 / 1000 [ 44%]  (Warmup)
 Iteration: 450 / 1000 [ 45%]  (Warmup)
 Iteration: 451 / 1000 [ 45%]  (Warmup)
 Iteration: 452 / 1000 [ 45%]  (Warmup)
-
-Non-steady state in experiment 2.
-Balanced metabolite concentration at 1000 seconds: [0.286238,0.187689]
-Balanced metabolite concentration at 1010 seconds: [0.285663,0.187689]
-flux: [-5.39229e-05,3.88771e-06,3.89123e-06]
-conc_init: [0.5,0.6,0.4,0.2]
-conc_unbalanced: [0.265674,0.187689]
-conc_enzyme_experiment: [0.00326035,0.472248,1.57459]
-km: [0.116733,0.353632,13.6368,0.0291045,0.000568946,58.7401]
-drain: []
-kcat: [1.29256,0.0127823,16.3045]
-keq: [1,1.34586,1]
-ki: [0.0724257]
-diss_t: [1.08976]
-diss_r: [2.40825]
-transfer_constant: [0.368029,5.26765]
-kcat_phos: []
-conc_phos_experiment: []
-
 Iteration: 453 / 1000 [ 45%]  (Warmup)
 Iteration: 454 / 1000 [ 45%]  (Warmup)
 Iteration: 455 / 1000 [ 45%]  (Warmup)
@@ -1061,7 +1042,7 @@ Iteration: 998 / 1000 [ 99%]  (Sampling)
 Iteration: 999 / 1000 [ 99%]  (Sampling)
 Iteration: 1000 / 1000 [100%]  (Sampling)
 
- Elapsed Time: 5546.85 seconds (Warm-up)
-               1601.13 seconds (Sampling)
-               7147.98 seconds (Total)
+ Elapsed Time: 1637.25 seconds (Warm-up)
+               612.892 seconds (Sampling)
+               2250.14 seconds (Total)
 
