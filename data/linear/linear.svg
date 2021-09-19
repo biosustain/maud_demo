@@ -19,6 +19,17 @@
    inkscape:export-ydpi="117.2">
   <defs
      id="defs2">
+    <inkscape:path-effect
+       effect="bspline"
+       id="path-effect982"
+       is_visible="true"
+       lpeversion="1"
+       weight="33.333333"
+       steps="2"
+       helper_size="0"
+       apply_no_weight="true"
+       apply_with_weight="true"
+       only_selected="false" />
     <marker
        style="overflow:visible;"
        id="marker5029"
@@ -269,14 +280,14 @@
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
      inkscape:zoom="1.1575153"
-     inkscape:cx="478.60058"
-     inkscape:cy="548.90577"
+     inkscape:cx="468.23355"
+     inkscape:cy="431.41272"
      inkscape:document-units="mm"
      inkscape:current-layer="layer1"
      inkscape:document-rotation="0"
      showgrid="false"
-     inkscape:window-width="1920"
-     inkscape:window-height="1035"
+     inkscape:window-width="1280"
+     inkscape:window-height="755"
      inkscape:window-x="0"
      inkscape:window-y="23"
      inkscape:window-maximized="0"
@@ -289,7 +300,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title></dc:title>
+        <dc:title />
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -357,13 +368,6 @@
        transform="translate(33.517174,-36.306528)"><tspan
          x="48.996094"
          y="91.235543"><tspan>r2</tspan></tspan></text>
-    <path
-       style="fill:none;stroke:#9700cb;stroke-width:0.465;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#marker1280)"
-       d="m 112.61373,75.400795 c -1.32652,2.178723 -2.65299,4.357368 -7.48091,5.20173 -4.82793,0.844362 -13.157077,0.354415 -21.690878,-0.0539 C 74.90814,80.140304 66.170697,79.81367 60.344554,78.020979 54.51841,76.228289 51.604255,72.969472 49.688558,70.793343 47.772862,68.617215 46.855833,67.523995 46.39719,66.977231 45.938546,66.430467 45.938546,66.430467 45.938546,66.430467"
-       id="path4109"
-       inkscape:path-effect="#path-effect4111"
-       inkscape:original-d="m 112.61373,75.400795 c -1.32633,2.178837 -2.6528,4.357481 -3.97948,6.536052 -8.32937,-0.48971 -16.658522,-0.97966 -24.988426,-1.4699 -8.737693,-0.32639 -17.475136,-0.65303 -26.213347,-0.97994 -2.914054,-3.25873 -5.828205,-6.51755 -8.742795,-9.77682 -0.916799,-1.09299 -1.833827,-2.18621 -2.751136,-3.27972 2.65e-4,2.7e-4 0,0 0,0"
-       sodipodi:nodetypes="ccccccc" />
     <path
        style="fill:none;stroke:#f60000;stroke-width:0.465;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#marker1290)"
        d="m 113.24408,50.068575 c -0.11867,-2.061913 -0.23733,-4.123749 -1.74457,-6.103589 -1.50724,-1.979839 -4.40313,-3.877428 -7.5729,-1.697571 -3.16976,2.179856 -6.613131,8.437328 -10.056712,14.695182"
@@ -488,5 +492,11 @@
          x="24.400211"
          y="37.690643"
          style="font-size:4.93888999999999978px;fill:#0000ff;fill-opacity:1;stroke-width:0.264583;">allosteric inhibition</tspan></text>
+    <path
+       style="fill:none;stroke:#9700cb;stroke-width:0.46499999;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;stroke-miterlimit:4;stroke-dasharray:none;marker-end:url(#marker1280)"
+       d="m 113.2836,74.608085 c -0.13716,2.011641 -0.2743,4.023133 -4.27443,4.98309 -4.00012,0.959957 -11.863064,0.868527 -21.006317,0.754237 C 78.859601,80.231121 68.436621,80.093976 61.647788,77.922525 54.858956,75.751073 51.704633,71.545309 48.550114,67.339283"
+       id="path980"
+       inkscape:path-effect="#path-effect982"
+       inkscape:original-d="m 113.2836,74.608085 c -0.13699,2.011652 -0.27414,4.023144 -0.41144,6.034478 C 105.00905,80.551288 97.146104,80.459858 89.282837,80.368269 78.859599,80.231277 68.436619,80.094133 58.013271,79.956827 54.858982,75.751053 51.704659,71.54529 48.550114,67.339283" />
   </g>
 </svg>
